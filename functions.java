@@ -1,9 +1,18 @@
 public class functions {
-    public static void main(String[] args) {
-        sparta();
+    void greating()
+    {
+        System.out.println("WellCome");
+        dummy();
     }
-    public static void sparta(){
-        System.out.println("This is sparta");
+    void dummy()
+    {
+        System.out.println("Iam Dummy");
+    }
 
+    public static void main(String[] args) {
+        {
+            functions obj1 = new functions();
+            obj1.greating();
+        }
     }
 }
