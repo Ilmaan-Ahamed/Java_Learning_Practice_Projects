@@ -1,26 +1,36 @@
-import java.lang.System;
 import java.util.Scanner;
 
-// GET INPUT IN INTEGER INT
 
-class input{
-   public static void main(String args[])
+class q1{
+    public static void main(String[] args) 
     {
-        Scanner number = new Scanner(System.in);
-        int a = number.nextInt();
-       int b = number.nextInt();
-        int f = a + b;
-        System.out.print(f);
+        Scanner scan = new Scanner(System.in);
+        int age      = scan.nextInt();
+        scan.nextLine();
+        String name  = scan.nextLine();
+
+        System.out.println("My age is "+age);
+        System.out.println("My name is "+name);
+        
     }
 }
 
-// GET Input in STRING STR
+class q2{
+    public static void main (String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter Your Name:");
+        String Na = input.nextLine();
 
-class inputstr{
-    public static void main(String args[])
-    {
-        Scanner name = new Scanner(System.in);
-        String bird = name.nextLine();
-        System.out.print(bird);
+        System.out.println("Enter your Score:");
+        Double Sco = input.nextDouble();
+
+        input.nextLine(); // Corrected method call
+        System.out.println("Enter your Department:");
+        String Dp = input.nextLine();
     }
+
+
+
+
+    
 }
