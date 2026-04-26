@@ -1,4 +1,4 @@
-# ☕ Java Programming Mastery Repository
+# ☕ My Java Programming Mastery Repository
 
 ## 📌 Overview
 This repository contains my complete learning journey in **Java Programming**, covering:
